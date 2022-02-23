@@ -13,7 +13,7 @@ puts "admin user created"
 		name: "Pizza" ,
 		description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, cumque quidem molestias fuga id facere a. Similique, doloremque est. Possimus aut facilis molestiae cumque iusto vel doloremque, animi praesentium ea?",
 		price: 11.99,
-		catering_item: true
+		catering: true
 	)
-	puts "25 menu items created"
 end
+puts "25 menu items created"

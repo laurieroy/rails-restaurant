@@ -1,0 +1,82 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.page-container {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100;
+}
+
+.title-card {
+  background-color: #111;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.75);
+}
+.title-text {
+  color: #fff;
+  font-size: 10em;
+  margin: 0px;
+  text-align: center;
+}
+
+// .page {
+//   width: 100vw;
+//   height: 100vh;
+// }
+
+.catering-page {
+  background-image: url("/images/catering.png");
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+}
+.home-page {
+  background-image: url("/images/exterior.png");
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+}
+.info-page {
+  background-image: url("/images/info.png");
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+}
+.menu-page {
+  background-image: url("/images/menu.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+.reviews-page {
+  background-image: url("/images/reviews.png");
+  width: 100vw;
+  height: 100vh;
+}
+
+.link-container {
+  padding-left: 1em;
+  padding-top: 0.25em;
+  .link {
+    color: #fff;
+  }
+  .active {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .link:active {
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+.menu-container {
+  // box shadow generator css or css matic
+  -webkit-box-shadow: 2px 2px 2px 0 px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 2px 0 px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 2px 0 px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  width: 100%;
+  padding: 2em;
+}
